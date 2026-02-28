@@ -1,6 +1,6 @@
 cask "frameworkscanner" do
   version "1.0.0"
-  sha256 :no_check
+  sha256 "e524b24cef613192e4695c561b59c34f4c7b872a15ecca4550d58a66f120bb27"
 
   url "https://github.com/Geoion/FrameworkScanner/releases/download/v#{version}/FrameworkScanner-#{version}.dmg"
   name "FrameworkScanner"

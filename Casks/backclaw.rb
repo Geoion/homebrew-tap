@@ -1,6 +1,6 @@
 cask "backclaw" do
-  version "1.1.0"
-  sha256 "ef363f4dc5b0a99d483646cb7d428cbe3ec42ede96536837732edc5e10e04b47"
+  version "1.2.0"
+  sha256 "dee8b740c03b067969dc2ed076ac18f4a5e244f7d32175a068d6b79a12b343e1"
 
   url "https://github.com/Geoion/BackClaw/releases/download/v#{version}/BackClaw-#{version}.dmg"
   name "BackClaw"

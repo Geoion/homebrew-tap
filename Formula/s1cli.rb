@@ -3,8 +3,8 @@ class S1cli < Formula
 
   desc "Stage1st 论坛命令行工具"
   homepage "https://github.com/Geoion/s1cli"
-  url "https://github.com/Geoion/s1cli/releases/download/v0.2.0/s1cli-0.2.0.tar.gz"
-  sha256 "546a5e5ab951024c23a8d95a1aaa1d0b4b5d24edc0fb66717803731a1557681d"
+  url "https://github.com/Geoion/s1cli/releases/download/v0.2.1/s1cli-0.2.1.tar.gz"
+  sha256 "b42355d6abb23de013df6cf46d7fe3aa9dafa22ba1c11cafbe6088c9d9413f6e"
   license "MIT"
 
   depends_on "python@3.12"
@@ -119,6 +119,6 @@ class S1cli < Formula
   end
 
   test do
-    assert_match "0.2.0", shell_output("#{bin}/s1cli --version")
+    assert_match "0.2.1", shell_output("#{bin}/s1cli --version")
   end
 end

@@ -1,13 +1,13 @@
 cask "kettle" do
   version "1.1.0"
-  sha256 "297d81a8e3881a1ff11c7c7d697a2e3a2d74bf6f3a9ee5b16c591376379402de"
+  sha256 "d54e74348154b1fca616a0072dd53e557ea8b0a1985ffa20e2e6bed6f9b1db9d"
 
   url "https://github.com/Geoion/Kettle/releases/download/v#{version}/Kettle-#{version}.dmg"
   name "Kettle"
   desc "Native macOS GUI for Homebrew — manage packages, casks, taps, and services"
   homepage "https://github.com/Geoion/Kettle"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Kettle.app"
 

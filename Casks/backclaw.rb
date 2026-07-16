@@ -7,7 +7,7 @@ cask "backclaw" do
   desc "Backup and restore tool for BackClaw configurations"
   homepage "https://github.com/Geoion/BackClaw"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "BackClaw.app"
 

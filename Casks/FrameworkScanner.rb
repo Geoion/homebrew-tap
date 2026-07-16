@@ -7,7 +7,7 @@ cask "frameworkscanner" do
   desc "Scan macOS apps and identify their development frameworks"
   homepage "https://github.com/Geoion/FrameworkScanner"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "FrameworkScanner.app"
 

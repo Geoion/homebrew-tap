@@ -1,6 +1,6 @@
 cask "frameworkscanner" do
-  version "1.1.2"
-  sha256 "93f847c1c21a02b49b4da4f196df62a84a13561f69763216741a238ce4215a62"
+  version "1.1.3"
+  sha256 "7e72f178f7cf2e6651a38ea13110890b6a2eafd18b19e96741f272da8adad27c"
 
   url "https://github.com/Geoion/FrameworkScanner/releases/download/v#{version}/FrameworkScanner-#{version}.dmg"
   name "FrameworkScanner"
@@ -10,14 +10,6 @@ cask "frameworkscanner" do
   depends_on macos: :ventura
 
   app "FrameworkScanner.app"
-
-  caveats <<~EOS
-    FrameworkScanner is not notarized. If macOS Gatekeeper blocks the app on first launch, run:
-
-      xattr -cr /Applications/FrameworkScanner.app
-
-    Then open the app normally.
-  EOS
 
   zap trash: [
     "~/Library/Application Support/com.eskiyin.FrameworkScanner",
